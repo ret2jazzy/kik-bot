@@ -22,3 +22,5 @@ There is also a bunch of things like "!say" in which the bot says what the perso
 
 
 This bot has been used with Samsung S3 emulator in genymotion and you can use any keyboard which has a paste button by configuring the taps
+
+The keyboard used is fancy key, you will need to run the script and then keep your kik open at the index page where it can see all the messages
