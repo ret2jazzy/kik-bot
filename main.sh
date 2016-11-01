@@ -75,7 +75,7 @@ while true; do
 
 	elif echo $f|grep -i '!control'|grep -e 'talk.kik.com' | grep -e '@groups.kik.com'; then
 	t=`adb shell "su -c 'sqlite3 /data/data/pikek.night/databases/kikDatabase.db \"select partner_jid from messagesTable order by _id desc limit 1\"'"`
-	if [[ "$t" == *"snipersnague_rub@talk.kik.com"* ]]; then	
+	if [[ "$t" == *"yourJID_rub@talk.kik.com"* ]]; then	
 		
 		if echo $f| grep -i "Type"|grep -i "stop"|grep -e 'talk.kik.com' | grep -e '@groups.kik.com'; then
 		typeallowed=0
